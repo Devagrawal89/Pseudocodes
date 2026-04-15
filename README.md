@@ -1,87 +1,105 @@
-📘 Pseudocodes with Python Implementations
-A well-structured collection of pseudocode algorithms along with their Python implementations in the same file, designed to help learners understand how logical steps are translated into actual code.
-Each program is written in a consistent format:
-📌 Pseudocode (step-by-step logic)
-🐍 Python implementation
-📥 Example input/output
+📘 Pseudocodes
+
+A structured collection of pseudocode-based problems and their Python implementations, designed to help students understand programming logic step by step.
+
+Each file contains:
+
+📌 Pseudocode (logic explanation)
+🐍 Python code implementation
+📥 Example input/output (in many cases)
 🚀 Features
-Clear pseudocode for every program
-Direct mapping from logic → Python code
-Example-based explanations
-Beginner-friendly and exam-oriented
-Covers multiple fundamental programming concepts
-📂 Topics Covered
-🔢 Basic Programs
-Armstrong Number
-Palindrome Number
-Reverse Number
-Sum of Digits
-Factorial
-Odd/Even Check
-Greatest of Numbers
-🔁 Control Structures
-If-Else statements
-Loop-based programs (for, while)
-Decision-making logic
+Clear logic using pseudocode
+Direct conversion from pseudocode → Python
+Covers basic to intermediate programming concepts
+Useful for academic exams and practice
+Beginner-friendly structure
+📂 Topics & Programs Included
+🔢 Basic Number Programs
+armstrong.py – Armstrong number
+palindrome.py – Palindrome check
+reverseNum.py – Reverse a number
+sumOfDigits.py – Sum of digits
+factorial.py, factorial2.py – Factorial programs
+absVal.py – Absolute value
+🔁 Control & Logic Programs
+loop.py – Loop-based logic
+comparing2num.py – Number comparison
+greatestOf5.py – Largest among numbers
 🧮 Mathematical Programs
-Square & Cube
-Arithmetic operations
-Increment/Decrement
-Number-based calculations
+areaOfCircle.py – Area calculation
+squareCube.py – Square and cube
+incrementDecrement.py – Increment logic
 🧩 Functions
-Function-based programs (function1.py → function6.py)
-Modular and reusable logic
-📊 Arrays & Data Handling
-Array-based programs
-Basic data manipulation
+function1.py → function6.py
+Demonstrates modular programming and reusable code
 ⚙️ Procedures
-Procedure-based programs (procedure1.py → procedure6.py)
-Structured programming approach
-❓ Practice Questions (Important)
-Multiple files from que1.py to que50.py+
-Covers logic-building and exam-oriented questions
-📄 File Structure Format
-Each file in this repository follows a standard format:
-Python
+procedure1.py → procedure6.py
+Structured programming examples
+📊 Arrays / Misc Programs
+array.py
+table.py – Multiplication table
+oddeven.py – Odd/Even logic
+❓ Practice Question Series ⭐
+que1.py → que50.py+
+
+Includes:
+
+Logic-building problems
+Exam-oriented questions
+Step-by-step solutions
+📄 File Format
+
+Each program follows a consistent structure:
+
 # Pseudocode:
 # Step 1: Input
 # Step 2: Process
 # Step 3: Output
 
 # Python Code:
-# Implementation of above logic
+# Implementation
 
 # Example:
-# Input: value
-# Output: result
-▶️ How to Use
+# Input: 121
+# Output: Palindrome
+▶️ How to Run
 1. Clone the Repository
-Bash
-git clone https://github.com/your-username/pseudocodes.git
-cd pseudocodes
+git clone https://github.com/Devagrawal89/Pseudocodes.git
+cd Pseudocodes
 2. Run Any Python File
-Bash
 python filename.py
+
 Example:
-Bash
-python palindrome.py
+
+python armstrong.py
 🎯 Purpose
-This repository is created for:
-B.Tech students preparing for exams
-Beginners learning programming logic
-Understanding pseudocode to Python conversion
-Practicing coding for interviews
+
+This repository is useful for:
+
+📚 B.Tech students (especially for exams & viva)
+💻 Beginners learning Python
+🧠 Understanding pseudocode → implementation
+🎯 Practice for coding interviews
 📈 Future Improvements
-Add time and space complexity analysis
-Include more advanced problems (DSA concepts)
-Improve documentation and comments
-Organize files into categorized folders
+Add time & space complexity
+Add comments in all programs
+Organize files into folders (Basics, Functions, etc.)
+Add advanced problems (DSA level)
 🤝 Contributing
-Contributions are welcome.
+
+Contributions are welcome:
+
 Fork the repository
-Add your program (with pseudocode and example)
+Add your program (with pseudocode + example)
 Create a pull request
 📄 License
-This project is open-source and available under the MIT License.
+
+Open-source under MIT License
+
 🙌 Author
+
 Dev Agrawal
+
+⭐ Final Note
+
+This repository builds a strong foundation in programming logic and problem-solving, and can be used as a solid academic + portfolio project.
