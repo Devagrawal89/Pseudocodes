@@ -1,105 +1,185 @@
-📘 Pseudocodes
+# 📘 Pseudocodes and Python Implementations
 
-A structured collection of pseudocode-based problems and their Python implementations, designed to help students understand programming logic step by step.
+A curated collection of **pseudocode-based problems** and their corresponding **Python implementations**.
+This repository is designed to help beginners understand how algorithmic logic is translated into executable Python programs.
 
-Each file contains:
+---
 
-📌 Pseudocode (logic explanation)
-🐍 Python code implementation
-📥 Example input/output (in many cases)
-🚀 Features
-Clear logic using pseudocode
-Direct conversion from pseudocode → Python
-Covers basic to intermediate programming concepts
-Useful for academic exams and practice
-Beginner-friendly structure
-📂 Topics & Programs Included
-🔢 Basic Number Programs
-armstrong.py – Armstrong number
-palindrome.py – Palindrome check
-reverseNum.py – Reverse a number
-sumOfDigits.py – Sum of digits
-factorial.py, factorial2.py – Factorial programs
-absVal.py – Absolute value
-🔁 Control & Logic Programs
-loop.py – Loop-based logic
-comparing2num.py – Number comparison
-greatestOf5.py – Largest among numbers
-🧮 Mathematical Programs
-areaOfCircle.py – Area calculation
-squareCube.py – Square and cube
-incrementDecrement.py – Increment logic
-🧩 Functions
-function1.py → function6.py
-Demonstrates modular programming and reusable code
-⚙️ Procedures
-procedure1.py → procedure6.py
-Structured programming examples
-📊 Arrays / Misc Programs
-array.py
-table.py – Multiplication table
-oddeven.py – Odd/Even logic
-❓ Practice Question Series ⭐
-que1.py → que50.py+
+## 📌 Overview
 
-Includes:
+This project focuses on building a strong foundation in programming by:
 
-Logic-building problems
-Exam-oriented questions
-Step-by-step solutions
-📄 File Format
+* Converting pseudocode into Python code
+* Practicing core programming concepts
+* Strengthening logical and analytical thinking
 
-Each program follows a consistent structure:
+---
 
-# Pseudocode:
-# Step 1: Input
-# Step 2: Process
-# Step 3: Output
+## 🛠️ Technology Used
 
-# Python Code:
-# Implementation
+* **Language:** Python 3
 
-# Example:
-# Input: 121
-# Output: Palindrome
-▶️ How to Run
-1. Clone the Repository
+---
+
+## 📥 Getting Started
+
+### 1. Clone the Repository
+
+```bash
 git clone https://github.com/Devagrawal89/Pseudocodes.git
 cd Pseudocodes
-2. Run Any Python File
-python filename.py
+```
+
+---
+
+## ▶️ Running the Programs
+
+### 🐧 On Kali Linux / Linux
+
+#### Check Python Installation
+
+```bash
+python3 --version
+```
+
+If not installed:
+
+```bash
+sudo apt update
+sudo apt install python3 -y
+```
+
+#### Run a Program
+
+```bash
+python3 filename.py
+```
 
 Example:
 
-python armstrong.py
-🎯 Purpose
+```bash
+python3 factorial.py
+```
 
-This repository is useful for:
+---
 
-📚 B.Tech students (especially for exams & viva)
-💻 Beginners learning Python
-🧠 Understanding pseudocode → implementation
-🎯 Practice for coding interviews
-📈 Future Improvements
-Add time & space complexity
-Add comments in all programs
-Organize files into folders (Basics, Functions, etc.)
-Add advanced problems (DSA level)
-🤝 Contributing
+### 🪟 On Windows
 
-Contributions are welcome:
+#### Install Python
 
-Fork the repository
-Add your program (with pseudocode + example)
-Create a pull request
-📄 License
+* Download from: https://www.python.org
+* Ensure **“Add Python to PATH”** is enabled during installation
 
-Open-source under MIT License
+#### Verify Installation
 
-🙌 Author
+```bash
+python --version
+```
 
-Dev Agrawal
+#### Run a Program
 
-⭐ Final Note
+```bash
+python filename.py
+```
 
-This repository builds a strong foundation in programming logic and problem-solving, and can be used as a solid academic + portfolio project.
+Example:
+
+```bash
+python factorial.py
+```
+
+---
+
+## 📂 Repository Structure
+
+The repository includes multiple Python programs categorized by concepts:
+
+### 🔢 Basic Programs
+
+* Absolute value → `absVal.py`
+* Area of circle → `areaofCircle.py`
+* Armstrong number → `armstrong.py`
+* Factorial → `factorial.py`, `factorial2.py`
+* Sum of digits → `sumofDigits.py`
+* Square & cube → `square&cube.py`
+
+---
+
+### 🔁 Control Flow & Conditions
+
+* Comparing numbers → `comparing2num.py`
+* Even/Odd check → `oddOReven.py`
+* Positive/Negative → `posORneg.py`
+* Greater than 5 → `greaterto5.py`
+* Loop examples → `loop.py`
+* Grade evaluation → `grade.py`
+
+---
+
+### 🔧 Functions & Procedures
+
+* Function implementations → `function1.py` to `function6.py`
+* Procedure implementations → `procedure1.py` to `procedure6.py`
+
+---
+
+### 🔢 Number-Based Problems
+
+* Reverse number → `reversenum.py`, `rev.py`
+* Palindrome → `palindrome.py`, `palindrome2.py`
+* Sum of series → `sumOfSr.py`
+* Multiplication table → `table.py`
+
+---
+
+### 🧮 Logical Operations
+
+* Increment & Decrement → `increment&decrement.py`
+* Bitwise XOR → `xor.py`
+
+---
+
+### 📝 Practice Set
+
+* `que1.py` to `que31.py`
+* Covers mixed programming concepts for practice
+
+---
+
+### 🆔 Miscellaneous
+
+* UID-related programs → `uid.py`, `uid2.py`
+
+---
+
+## 🎓 Learning Outcomes
+
+By working through this repository, you will:
+
+* Understand how pseudocode translates into real code
+* Improve problem-solving and logical thinking
+* Build a strong base for Data Structures & Algorithms
+* Gain confidence in Python fundamentals
+
+---
+
+## 🚀 Future Enhancements
+
+* Add pseudocode explanations within each file
+* Include input/output examples
+* Organize files into topic-wise directories
+* Add comments and documentation for better clarity
+
+---
+
+## 👨‍💻 Author
+
+**Dev Agrawal**
+
+---
+
+## 📜 License
+
+This project is open-source and available under the MIT License.
+
+---
