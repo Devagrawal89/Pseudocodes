@@ -34,3 +34,54 @@ Modular and reusable logic
 📊 Arrays & Data Handling
 Array-based programs
 Basic data manipulation
+⚙️ Procedures
+Procedure-based programs (procedure1.py → procedure6.py)
+Structured programming approach
+❓ Practice Questions (Important)
+Multiple files from que1.py to que50.py+
+Covers logic-building and exam-oriented questions
+📄 File Structure Format
+Each file in this repository follows a standard format:
+Python
+# Pseudocode:
+# Step 1: Input
+# Step 2: Process
+# Step 3: Output
+
+# Python Code:
+# Implementation of above logic
+
+# Example:
+# Input: value
+# Output: result
+▶️ How to Use
+1. Clone the Repository
+Bash
+git clone https://github.com/your-username/pseudocodes.git
+cd pseudocodes
+2. Run Any Python File
+Bash
+python filename.py
+Example:
+Bash
+python palindrome.py
+🎯 Purpose
+This repository is created for:
+B.Tech students preparing for exams
+Beginners learning programming logic
+Understanding pseudocode to Python conversion
+Practicing coding for interviews
+📈 Future Improvements
+Add time and space complexity analysis
+Include more advanced problems (DSA concepts)
+Improve documentation and comments
+Organize files into categorized folders
+🤝 Contributing
+Contributions are welcome.
+Fork the repository
+Add your program (with pseudocode and example)
+Create a pull request
+📄 License
+This project is open-source and available under the MIT License.
+🙌 Author
+Dev Agrawal
